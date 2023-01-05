@@ -254,13 +254,25 @@
 
         <!-- <h1  class=" font-bold">MY PROJETS</h1> -->
 
-  <div class="group">
-  <div class="item" style="background-image: url(https://images.cinemaexpress.com/uploads/user/imagelibrary/2022/10/15/original/Alexandra_Daddario.jpg?w=400&dpr=2.6)"></div>
-  <div class="item" style="background-image: url(https://deadline.com/wp-content/uploads/2019/07/alexandra-daddario.jpg?w=1024)"></div>
-  <div class="item" style="background-image: url(https://www.giantfreakinrobot.com/wp-content/uploads/2022/02/alexandra-daddario-baywatch.jpg)"></div>
-  <div class="item" style="background-image: url(https://img.mensxp.com/media/content/2020/Sep/Indian-Guy-Shares-Picture-With-Alexandra-Daddario-1200x900_5f6dd29c7c670.jpeg)"></div>
-  <div class="item" style="background-image: url(https://www.hollywoodreporter.com/wp-content/uploads/2022/07/Print-Issue-23A-fea_actress-Daddario-MAIN-GettyImages-1389968186-H-2022.jpg)"></div>
-</div>
+        <div class="x-container">
+      
+        
+        
+          <div class="x-gallery">
+            <div class="xg-tag-filter">
+              <div class="xg-btn xg-btn-tag xg-btn-active" data-tag="all">Show All</div>
+              <div class="xg-btn xg-btn-tag" data-tag="characters">Characters</div>
+              <div class="xg-btn xg-btn-tag" data-tag="scenery">Scenery</div>
+              <div class="xg-btn xg-btn-tag" data-tag="abstract">Abstract</div>
+            </div>
+            <div class="xg-container">
+              <div class="xg-loader">
+                <div class="xg-loader-text">sorting the gallery...</div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
 
 
       </div>
@@ -286,8 +298,34 @@
     <!--Header ends-->
 
     <!--Content starts-->
-    <div class="content flex">
-      <p>By.Goodkatz | Free to use </p>
+    <div class="contain_contact">
+      <div class="animation">
+        <lottie-player src="./animation.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
+
+      </div>
+      <div class="form_contact">
+        <h1>CONTACT ME HERE !</h1>
+
+        <div class="contain_input">
+          <div class="contain_input1">
+            <input type="text" name="name" placeholder="Nmae" id="">
+            <input class="inputEmail" type="email" placeholder="Email">
+          </div>
+       
+          <div class="contain_input2">
+  
+            <!-- <textarea name="" id="" cols="30" rows="7" placeholder="Message" ></textarea> -->
+            <input type="text" placeholder="Message" name="Message">
+          </div>
+          <button>Submit</button>
+
+        </div>
+
+
+
+
+
+      </div>
     </div>
     <!--Content ends-->
 
@@ -321,6 +359,9 @@
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./app.js"></script>
   <script src="./autotyping.js"></script>
   <script src="./js/snow.js"></script>
@@ -329,6 +370,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/aos.js"></script>
+  
 
   <script>
     AOS.init({
